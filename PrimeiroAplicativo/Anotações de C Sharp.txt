@@ -1,0 +1,6 @@
+Visual Studio Anotações:
+
+
+Background Color: Altera cor do pano de fundo do aplicativo.
+
+	Nota: A cor bacaninha cinza do Windows é a cor Control, no System.

@@ -1,0 +1,73 @@
+Visual Studio Anotações:
+
+
+Toolbox:
+
+	Common Controls:
+
+		CheckBox: Um componente onde existem várias opções e é permitido marcar uma ou mais delas.
+
+
+		Label: Provê uma descrição run-time ou texto descriptivo para um control
+
+
+		Textbox: Cria uma caixa de texto que permite ao usuário inserir texto, e provêm edição multi-linha e mascaração de texto de senha.
+
+		PictureBox: 
+
+			 Propriedade Sizemode: Define a maneira que a imagem será exibida no formulário. Tem três opções:
+
+			 	- Normal: A imagem é exibida em seu tamanho normal e sempre é posicionada a partir do canto superior do componente; caso a imagem seja maior que Picturebox, ela será cortada.
+
+			 	- StretchImage: A imagem é ajustada automaticamente ao tamanho do PictureBox
+
+			 	- Autosize: o PictureBox altera seu tamanho automaticamente, para se ajustar ao tamanho da imagem.
+
+			 ComboBox: Exibe uma caixa de texto editável com uma lista suspensa de valores permitidos. 
+			 
+			 	Items: Itens na caixa de combinação. São os valores permitidos da lista suspensa.
+
+
+
+Containers:
+
+	Panel: Auxillia na composição do formulário, possibilitando agrupar vários componentes dentro dele, deixando o trabalho com um aspecto mais organizado.		
+
+
+Propriedades:
+
+	Background Color: Altera cor do pano de fundo do aplicativo.
+
+		Nota: A cor bacaninha cinza do Windows é a cor Control, no System.
+
+
+	Border Style: Indica se o painel deve ter uma borda.
+	
+		Fixed Single: Impede o redimensionamento da border durante execução do programa, deixando-a fixa.	
+
+
+	Font: Altera a fonte de texto de formulários e tal, tipo de fonte, tamanho, etc.	
+
+
+	FormBorderStyle: Indica a aparência e ação  da borda e da barra de titulo da Forma.
+
+		FixedSingle: Impede redimensionamento da janela durante a execução do programa, deixando ela fixa.
+
+	Start Position: Determina a posição da forma quando ela aparece/inicia.
+
+		Center Screen: Deixa o formulário centralizado na tela quando estiver em execuão.
+
+	Icon: Altera icone do formulário na janela.			
+
+
+	MaximizeBox: Determina se a forma tem o botãozinho de maximize box ativo na janela.
+
+
+	Sizemode: Acessada pelo componente PictureBox, temos acesso á propriedade SizeMode, na qual define a maneira em que a imagem será exibida no formulário. Ela tem as seguintes opções:
+
+		Normal - a imagem é exibida em seu tamanho normal e sempre é posicionada a partir do canto superior do componente; caso a imagem seja maior que a PictureBox, ela será cortada.
+
+		StretchImage - a imagem é ajustada automaticamente ao tamanho do PictureBox.
+
+		AutoSize - o PictureBox altera seu tamannho automaticamente, para se ajustar ao tamanho da imagem.
+
