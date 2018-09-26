@@ -16,7 +16,7 @@ namespace PrimeiroAplicativo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPropriedadesCheckBox());
+            Application.Run(new FrmMenuPrincipal());
         }
     }
 }

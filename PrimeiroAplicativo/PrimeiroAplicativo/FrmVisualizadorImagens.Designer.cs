@@ -28,24 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnMostrarImagem = new System.Windows.Forms.Button();
             this.btnLimparImagem = new System.Windows.Forms.Button();
             this.rdbStretch = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.rdbNormal = new System.Windows.Forms.RadioButton();
+            this.pboxImagem = new System.Windows.Forms.PictureBox();
+            this.pboxRetrato = new System.Windows.Forms.PictureBox();
+            this.ofdImagens = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxImagem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxRetrato)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(597, 387);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // btnMostrarImagem
             // 
@@ -82,26 +74,45 @@
             this.rdbStretch.UseVisualStyleBackColor = true;
             this.rdbStretch.CheckedChanged += new System.EventHandler(this.rdbStretch_CheckedChanged);
             // 
-            // radioButton1
+            // rdbNormal
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(496, 396);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(70, 20);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Normal";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.rdbNormal.AutoSize = true;
+            this.rdbNormal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbNormal.Location = new System.Drawing.Point(496, 396);
+            this.rdbNormal.Name = "rdbNormal";
+            this.rdbNormal.Size = new System.Drawing.Size(70, 20);
+            this.rdbNormal.TabIndex = 3;
+            this.rdbNormal.TabStop = true;
+            this.rdbNormal.Text = "Normal";
+            this.rdbNormal.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // pboxImagem
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, -1);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(597, 387);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.pboxImagem.Image = global::PrimeiroAplicativo.Properties.Resources.Big_turtle_big3name_archelon_ruling_turtlephonetic_arekellonnamed_by_gr_wieland_a48474_6345322;
+            this.pboxImagem.Location = new System.Drawing.Point(69, 69);
+            this.pboxImagem.Name = "pboxImagem";
+            this.pboxImagem.Size = new System.Drawing.Size(462, 250);
+            this.pboxImagem.TabIndex = 5;
+            this.pboxImagem.TabStop = false;
+            this.pboxImagem.Click += new System.EventHandler(this.pboxImagem_Click);
+            // 
+            // pboxRetrato
+            // 
+            this.pboxRetrato.Image = global::PrimeiroAplicativo.Properties.Resources.depositphotos_111026112_stock_illustration_decorative_black_rectangular_frame;
+            this.pboxRetrato.Location = new System.Drawing.Point(-1, -1);
+            this.pboxRetrato.Name = "pboxRetrato";
+            this.pboxRetrato.Size = new System.Drawing.Size(599, 387);
+            this.pboxRetrato.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pboxRetrato.TabIndex = 4;
+            this.pboxRetrato.TabStop = false;
+            this.pboxRetrato.Click += new System.EventHandler(this.pboxRetrato_Click);
+            // 
+            // ofdImagens
+            // 
+            this.ofdImagens.FileName = " ";
+            this.ofdImagens.Filter = "Image Files (*.BMP;*.JPG;*.GIF)|*.BMP;*JPG;*.GIF|All files (*.*) |*.*,";
+            this.ofdImagens.InitialDirectory = "PrimeiroAplicativo\\imagens";
+            this.ofdImagens.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // FrmVisualizadorImagens
             // 
@@ -109,28 +120,28 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(598, 428);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.pboxImagem);
+            this.Controls.Add(this.pboxRetrato);
+            this.Controls.Add(this.rdbNormal);
             this.Controls.Add(this.rdbStretch);
             this.Controls.Add(this.btnLimparImagem);
             this.Controls.Add(this.btnMostrarImagem);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "FrmVisualizadorImagens";
             this.Text = "FormVisualizadorImagens";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxImagem)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxRetrato)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnMostrarImagem;
         private System.Windows.Forms.Button btnLimparImagem;
         private System.Windows.Forms.RadioButton rdbStretch;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.RadioButton rdbNormal;
+        private System.Windows.Forms.PictureBox pboxRetrato;
+        private System.Windows.Forms.PictureBox pboxImagem;
+        private System.Windows.Forms.OpenFileDialog ofdImagens;
     }
 }

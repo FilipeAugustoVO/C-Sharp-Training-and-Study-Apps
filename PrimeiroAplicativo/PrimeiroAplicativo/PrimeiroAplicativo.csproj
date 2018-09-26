@@ -57,6 +57,12 @@
     <Compile Include="FrmVisualizadorImagens.Designer.cs">
       <DependentUpon>FrmVisualizadorImagens.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmPropriedadesCheckBox.resx">
@@ -64,6 +70,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmVisualizadorImagens.resx">
       <DependentUpon>FrmVisualizadorImagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +82,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -86,6 +96,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\depositphotos_111026112-stock-illustration-decorative-black-rectangular-frame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Big+turtle+big3name+archelon+ruling+turtlephonetic+arekellonnamed+by+gr+wieland_a48474_6345322.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

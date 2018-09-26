@@ -54,7 +54,7 @@
             this.chkPessoaFisica.TabIndex = 2;
             this.chkPessoaFisica.Text = "Pessoa Física";
             this.chkPessoaFisica.UseVisualStyleBackColor = true;
-            this.chkPessoaFisica.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.chkPessoaFisica.CheckedChanged += new System.EventHandler(this.chkPessoaFisica_CheckedChanged);
             // 
             // chkPessoaJuridica
             // 
@@ -66,7 +66,7 @@
             this.chkPessoaJuridica.TabIndex = 3;
             this.chkPessoaJuridica.Text = "Pessoa Jurídica";
             this.chkPessoaJuridica.UseVisualStyleBackColor = true;
-            this.chkPessoaJuridica.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.chkPessoaJuridica.CheckedChanged += new System.EventHandler(this.chkPessoaJuridica_CheckedChanged);
             // 
             // pnlPessoaFisica
             // 
@@ -168,7 +168,7 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Nome:";
             // 
-            // Form1
+            // FrmPropriedadesCheckBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,7 +180,7 @@
             this.Controls.Add(this.chkPessoaFisica);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "FrmPropriedadesCheckBox";
             this.Text = "Propriedades do Check-Box";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.pnlPessoaFisica.ResumeLayout(false);

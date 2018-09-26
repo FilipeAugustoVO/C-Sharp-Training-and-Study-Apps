@@ -11,9 +11,12 @@ c:\users\positivo premium\source\repos\PrimeiroAplicativo\PrimeiroAplicativo\obj
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\bin\Debug\PrimeiroAplicativo.exe.config
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\bin\Debug\PrimeiroAplicativo.exe
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\bin\Debug\PrimeiroAplicativo.pdb
-C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.csprojResolveAssemblyReference.cache
-C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.Form1.resources
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.Properties.Resources.resources
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.csproj.GenerateResource.Cache
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.exe
 C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.pdb
+C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.csprojAssemblyReference.cache
+C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.FrmPropriedadesCheckBox.resources
+C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.FrmVisualizadorImagens.resources
+C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.csproj.CoreCompileInputs.cache
+C:\Users\Convidado\Desktop\outros\PrimeiroAplicativo\PrimeiroAplicativo\obj\Debug\PrimeiroAplicativo.FrmMenuPrincipal.resources

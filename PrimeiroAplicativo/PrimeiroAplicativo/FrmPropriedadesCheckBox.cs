@@ -22,14 +22,19 @@ namespace PrimeiroAplicativo
 
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        //Checkbox Pessoa Fisica
+        private void chkPessoaFisica_CheckedChanged(object sender, EventArgs e)
         {
-            pnlPessoaJuridica.Visible
+            pnlPessoaFisica.Visible = true;
+            pnlPessoaJuridica.Visible = false;
         }
+        
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        //Checkbox Pessoa Juridica
+        private void chkPessoaJuridica_CheckedChanged(object sender, EventArgs e)
         {
-
+            pnlPessoaJuridica.Visible = true;
+            pnlPessoaFisica.Visible = false;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
