@@ -189,15 +189,15 @@ PictureBox: Comando que invoca PictureBox pra exibir uma imagem.
 
 PictureBoxSizeMode.: Especifica como uma certa imagem é posicionada dentro da PictureBox. Seus parâmetros são Normal, StretchImage e AutoSize. É o comando sizemode das propriedades, só que em código. Por exemplo: PictureBoxSizeMode.Normal, faz a imagem ficar no tamanho normal.
 
-.Load: Carrega um arquivo.
+	.Load: Carrega um arquivo.
 
-.Image: Age com uma imagem. Por exemplo, PictureBox.Image = Null, faz com que a imagem da PictureBox seja nula, ou seja, não tem imagem.
+	.Image: Age com uma imagem. Por exemplo, PictureBox.Image = Null, faz com que a imagem da PictureBox seja nula, ou seja, não tem imagem.
 
-.Show: Abre uma janela imediatamente. Ver mais comentário aqui: https://docs.microsoft.com/pt-br/dotnet/api/system.windows.window.show?redirectedfrom=MSDN&view=netframework-4.7.2#System_Windows_Window_Show
+	.Show: Abre uma janela imediatamente. Ver mais comentário aqui: https://docs.microsoft.com/pt-br/dotnet/api/system.windows.window.show?redirectedfrom=MSDN&view=netframework-4.7.2#System_Windows_Window_Show
 
-.Visible = True/False #Torna objetos visiveis (true) ou invisiveis (false). Por exemplo, TextBox1.Visible tornaria uma Textbox invisivel.
+	.Visible = True/False #Torna objetos visiveis (true) ou invisiveis (false). Por exemplo, TextBox1.Visible tornaria uma Textbox invisivel.
 
-.Hide: Esconde o conteudo.
+	.Hide: Esconde o conteudo.
 
 
 Control:
@@ -363,4 +363,6 @@ Tipos de Métodos:
 
 
 		Leitura recomendada: https://www.dotnetperls.com/for
+
+	ToString: Metodo virtual. Retorna uma representação de string. É um metodo	
 

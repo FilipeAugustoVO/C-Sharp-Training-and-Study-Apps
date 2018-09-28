@@ -17,55 +17,48 @@ namespace PrimeiroAplicativo
             InitializeComponent();
         }
 
-        private void btnCalcular_Click(object sender, EventArgs e)
-            
+        private void textoVazioOuBranco()
         {
-            MessageBox.Show("Você precisa digitar o número para calcular uma tabuada", "Informação,");
+            if (string.IsNullOrWhiteSpace(txtNumero.Text))
+            {
+                MessageBox.Show("Você precisa digitar o número para calcular uma tabuada");
+            }
         }
-            else
+
+
+
+        private void btnCalcular_Click(object sender, EventArgs e) //botão que faz o calculo
         {
             double numero, resultado;
             numero = double.Parse(txtNumero.Text); //conversão de string da textbox dos números pra double.
 
-            for (int i = 0; i <=10; i++)
+            for (int i = 0; i <=10; i++) //repete a conta dez vezes, mostrando dez vezes a tabuada do numero digitado
             {
-                resultado = numero * i;
-                txtTabuada.Text += numero + "x" + i + "=" + resultado + "\r\n";
+                resultado = numero * i; //resultado da tabuada é igual á numero digitado no txtNumero * variável i.
+                txtTabuada.Text += numero + "x" + i + "=" + resultado + "\r\n"; //Faz a conta e diz pra exibir no txtTabuada a conta, 
+                //ou seja, numero x i (que vai de 0 á 10) = resultado e depois pula pra uma nova linha.
             }
-                
-        } Desativado devido á erros estranhos. Possivelmente porque não defini txtTabuada? */
-
-        {
-            double numero, resultado;
-            numero = double.Parse(txtNumero.Text); //conversão de string da textbox dos números pra double.
-
-            for (int i = 0; i <=10; i++)
-            {
-                resultado = numero * i;
-                txtTabuada.Text += numero + "x" + i + "=" + resultado + "\r\n";
-            }
-                
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtNumero.Text = ""; //apaga a txtbox de número
-            txtTabuada.Text = "";
+            txtTabuada.Text = ""; //apaga a txtbox da tabuada
         }
 
         private void txtNumero_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void txtTabuada_TextChanged(object sender, EventArgs e)
+        private void txtTabuada_TextChanged_1(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

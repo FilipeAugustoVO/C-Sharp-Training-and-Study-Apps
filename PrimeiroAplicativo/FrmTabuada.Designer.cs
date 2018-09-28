@@ -81,12 +81,12 @@
             // txtTabuada
             // 
             this.txtTabuada.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtTabuada.Location = new System.Drawing.Point(145, 73);
+            this.txtTabuada.Location = new System.Drawing.Point(163, 73);
             this.txtTabuada.Multiline = true;
             this.txtTabuada.Name = "txtTabuada";
-            this.txtTabuada.Size = new System.Drawing.Size(215, 239);
+            this.txtTabuada.Size = new System.Drawing.Size(188, 245);
             this.txtTabuada.TabIndex = 3;
-            this.txtTabuada.TextChanged += new System.EventHandler(this.txtTabuada_TextChanged);
+            this.txtTabuada.TextChanged += new System.EventHandler(this.txtTabuada_TextChanged_1);
             // 
             // FrmTabuada
             // 
