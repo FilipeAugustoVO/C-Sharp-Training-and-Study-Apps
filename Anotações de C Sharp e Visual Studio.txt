@@ -9,7 +9,7 @@ Instância/instance (OOP): Ocorrência concreta de um objeto. Formalmente sinôn
 
 Toolbox:
 
-	Common Controls:
+	Common Controls/Controles Comuns:
 
 		CheckBox: Um componente onde existem várias opções e é permitido marcar uma ou mais delas.
 
@@ -17,14 +17,11 @@ Toolbox:
 		Label: Provê uma descrição run-time ou texto descriptivo para um control
 
 
-		Textbox: Cria uma caixa de texto que permite ao usuário inserir texto, e provêm edição multi-linha e mascaração de texto de senha.
+		NumericUpDown: Exibe um único valor numérico que o usuário pode acrescentar e decrementar clicando nos botões acima e abaixo do controle.
 
-			Propriedades:
+			.value: Valor atual do controle numérico acima-abaixo. Por exemplo, colocar 5 significa que começa como cinco no padrão.
 
-				Borderstyle: Altera o estilo da borda ao redor da Textbox.
-
-				Multiline: Controla se o texto no controle de edição pode ser extendido em mais de uma linha. Em outra palavras, ele permite que uma textbox ou um controle semelhante pode usar mais de uma linha. Tanto que ele abre a possibilidade de expandir o tamanho de um Textbox na vertical.
-				True: Permite que insiramos várias linhas. False: Apenas uma linha.
+			.Maximum: Indica o valor máximo para o controle numérico acima-abaixo.
 
 		PictureBox: 
 
@@ -38,8 +35,24 @@ Toolbox:
 
 			 ComboBox: Exibe uma caixa de texto editável com uma lista suspensa de valores permitidos. 
 			 
-			 	Items: Itens na caixa de combinação. São os valores permitidos da lista suspensa.
+			 	Propriedades:
 
+			 	 .Items: Itens na caixa de combinação. São os valores permitidos da lista suspensa.
+
+			 	 .Locked: Especifica se é possivel editar o dado do controle na visão do formulário. Booleana Ler/Gravar. Configuração padrão é True/Verdadeiro, que permite editar, adicionar e deletar dados.
+
+			 	 .DropDownStyle: Permite apenas que items sejam selecionados. 
+
+			 	 	- DropDownList: Permite que items sejam apenas selecionados em uma lista. Também muda a aparência.
+
+		Textbox: Cria uma caixa de texto que permite ao usuário inserir texto, e provêm edição multi-linha e mascaração de texto de senha.
+
+			Propriedades:
+
+				Borderstyle: Altera o estilo da borda ao redor da Textbox.
+
+				Multiline: Controla se o texto no controle de edição pode ser extendido em mais de uma linha. Em outra palavras, ele permite que uma textbox ou um controle semelhante pode usar mais de uma linha. Tanto que ele abre a possibilidade de expandir o tamanho de um Textbox na vertical.
+				True: Permite que insiramos várias linhas. False: Apenas uma linha.	 	 	
 
 
 Containers:
